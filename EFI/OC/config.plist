@@ -1148,7 +1148,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/VoodooPS2Controller</string>
 					<key>MaxKernel</key>
@@ -1166,7 +1166,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/VoodooPS2Keyboard</string>
 					<key>MaxKernel</key>
