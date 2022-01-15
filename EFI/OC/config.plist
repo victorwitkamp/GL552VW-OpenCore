@@ -44,7 +44,7 @@
 					<key>Enabled</key>
 					<false/>
 					<key>Path</key>
-					<string>SSDT-AWAC.aml</string>
+					<string>SSDT-AWAC-DISABLE.aml</string>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -76,7 +76,7 @@
 					<key>Enabled</key>
 					<false/>
 					<key>Path</key>
-					<string>SSDT-EHCx_OFF.aml</string>
+					<string>SSDT-EHCx-DISABLE.aml</string>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -329,6 +329,10 @@
 			<key>Patch</key>
 			<array>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>Replace one byte sequence with another</string>
 					<key>Count</key>
@@ -355,6 +359,40 @@
 					<data></data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string>\_SB.PCI0.LPCB.HPET</string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
+					<key>Comment</key>
+					<string>HPET _CRS to XCRS</string>
+					<key>Count</key>
+					<integer>1</integer>
+					<key>Enabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X0NSUw==</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data></data>
+					<key>OemTableId</key>
+					<data></data>
+					<key>Replace</key>
+					<data>WENSUw==</data>
+					<key>ReplaceMask</key>
+					<data></data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+					<key>TableSignature</key>
+					<data></data>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>HPET _CRS to XCRS Rename</string>
 					<key>Count</key>
@@ -381,6 +419,10 @@
 					<data>AAAAAA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>RTC IRQ 8 Patch</string>
 					<key>Count</key>
@@ -407,6 +449,10 @@
 					<data>AAAAAA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>TIMR IRQ 0 Patch</string>
 					<key>Count</key>
@@ -433,6 +479,10 @@
 					<data>AAAAAA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>PARSEOP_ZERO error patch 1</string>
 					<key>Count</key>
@@ -459,6 +509,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>PARSEOP_ZERO error patch 2</string>
 					<key>Count</key>
@@ -485,6 +539,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>if (USTP) to if (XSTP)</string>
 					<key>Count</key>
@@ -511,6 +569,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>USTP to XSTP</string>
 					<key>Count</key>
@@ -537,6 +599,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>ETPD GPIO pinning (_CRS to XCRS)</string>
 					<key>Count</key>
@@ -563,6 +629,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>GPIO enable (_STA to XSTA)</string>
 					<key>Count</key>
@@ -589,6 +659,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>_OSI to XOSI</string>
 					<key>Count</key>
@@ -615,6 +689,10 @@
 					<data></data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>_Q11 to XQ11</string>
 					<key>Count</key>
@@ -641,6 +719,10 @@
 					<data></data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>GPRW to XPRW</string>
 					<key>Count</key>
@@ -667,6 +749,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>_INI to XINI</string>
 					<key>Count</key>
@@ -693,6 +779,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>SSCN</string>
 					<key>Count</key>
@@ -719,6 +809,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>FMCN</string>
 					<key>Count</key>
@@ -745,6 +839,10 @@
 					<data>RFNEVA==</data>
 				</dict>
 				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
 					<key>Comment</key>
 					<string>I2C0 _STA to XSTA</string>
 					<key>Count</key>
@@ -851,6 +949,8 @@
 				<false/>
 				<key>EnableWriteUnprotector</key>
 				<true/>
+				<key>ForceBooterSignature</key>
+				<false/>
 				<key>ForceExitBootServices</key>
 				<false/>
 				<key>ProtectMemoryRegions</key>
@@ -1988,6 +2088,21 @@
 				<key>MinVersion</key>
 				<integer>0</integer>
 			</dict>
+			<key>AppleInput</key>
+			<dict>
+				<key>AppleEvent</key>
+				<string>Builtin</string>
+				<key>CustomDelays</key>
+				<string>Auto</string>
+				<key>KeyInitialDelay</key>
+				<integer>0</integer>
+				<key>KeySubsequentDelay</key>
+				<integer>5</integer>
+				<key>PointerSpeedDiv</key>
+				<integer>1</integer>
+				<key>PointerSpeedMul</key>
+				<integer>1</integer>
+			</dict>
 			<key>Audio</key>
 			<dict>
 				<key>AudioCodec</key>
@@ -2083,8 +2198,6 @@
 				<key>AppleBootPolicy</key>
 				<false/>
 				<key>AppleDebugLog</key>
-				<false/>
-				<key>AppleEvent</key>
 				<false/>
 				<key>AppleFramebufferInfo</key>
 				<false/>
