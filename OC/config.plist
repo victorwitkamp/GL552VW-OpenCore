@@ -242,7 +242,7 @@
 					<key>Comment</key>
 					<string>ETPD _CRS and SBFG (Needs _CRS to XCRS)</string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Path</key>
 					<string>SSDT-ETPD.aml</string>
 				</dict>
@@ -250,7 +250,7 @@
 					<key>Comment</key>
 					<string>GPIO Enable (GPEN)</string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Path</key>
 					<string>SSDT-GPIO-GPEN.aml</string>
 				</dict>
@@ -282,7 +282,7 @@
 					<key>Comment</key>
 					<string>USTP One</string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Path</key>
 					<string>SSDT-USTP.aml</string>
 				</dict>
@@ -290,7 +290,7 @@
 					<key>Comment</key>
 					<string>SSDT_I2C0_OFF</string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Path</key>
 					<string>SSDT_I2C0_OFF.aml</string>
 				</dict>
@@ -578,7 +578,7 @@
 					<key>Count</key>
 					<integer>1</integer>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>TTkIU0RNQQhVU1RQCFNTSA==</data>
 					<key>Limit</key>
@@ -608,7 +608,7 @@
 					<key>Count</key>
 					<integer>1</integer>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>FBFfQ1JTAA==</data>
 					<key>Limit</key>
@@ -848,7 +848,7 @@
 					<key>Count</key>
 					<integer>1</integer>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>FA9fU1RBAA==</data>
 					<key>Limit</key>
@@ -1346,7 +1346,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/VoodooGPIO</string>
 					<key>MaxKernel</key>
@@ -1364,7 +1364,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/VoodooI2CServices</string>
 					<key>MaxKernel</key>
@@ -1382,7 +1382,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/VoodooInput</string>
 					<key>MaxKernel</key>
@@ -1400,7 +1400,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/VoodooI2C</string>
 					<key>MaxKernel</key>
@@ -1418,7 +1418,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/VoodooI2CHID</string>
 					<key>MaxKernel</key>
