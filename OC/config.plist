@@ -1548,6 +1548,24 @@
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
+				<dict>
+					<key>Arch</key>
+					<string>Any</string>
+					<key>BundlePath</key>
+					<string>BrightnessKeys.kext</string>
+					<key>Comment</key>
+					<string></string>
+					<key>Enabled</key>
+					<true/>
+					<key>ExecutablePath</key>
+					<string>Contents/MacOS/BrightnessKeys</string>
+					<key>MaxKernel</key>
+					<string></string>
+					<key>MinKernel</key>
+					<string></string>
+					<key>PlistPath</key>
+					<string>Contents/Info.plist</string>
+				</dict>
 			</array>
 			<key>Block</key>
 			<array>
@@ -2151,7 +2169,7 @@
 					<key>SystemAudioVolumeDB</key>
 					<data>4g==</data>
 					<key>boot-args</key>
-					<string>-v debug=0x100 slide=1 alcdelay=1000 keepsyms=1 kext-dev-mode=1 -wegnoegpu</string>
+					<string>-v debug=0x100 slide=1 alcdelay=1000 keepsyms=1 kext-dev-mode=1 -wegnoegpu -brkeysdbg</string>
 					<key>csr-active-config</key>
 					<data>AAAAAA==</data>
 					<key>prev-lang:kbd</key>
