@@ -104,7 +104,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
+					<string>Read the comment in dsl sample - Enable brightness control</string>
 					<key>Enabled</key>
 					<true/>
 					<key>Path</key>
@@ -128,7 +128,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
+					<string>Read the comment in dsl sample - Add SMBus compatibility</string>
 					<key>Enabled</key>
 					<true/>
 					<key>Path</key>
@@ -144,7 +144,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>ATKD</string>
+					<string>ATKD Keyboard Backlight</string>
 					<key>Enabled</key>
 					<true/>
 					<key>Path</key>
@@ -160,9 +160,9 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>GPRW</string>
+					<string>GPRW Instant Wake (GPRW to XPRW)</string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Path</key>
 					<string>SSDT-GPRW.aml</string>
 				</dict>
@@ -194,7 +194,7 @@
 					<key>Comment</key>
 					<string>Disable GPU (Bumblebee Method)(dortania)</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Path</key>
 					<string>SSDT-NoHybGfx.aml</string>
 				</dict>
@@ -360,7 +360,7 @@
 					<key>Count</key>
 					<integer>1</integer>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X0NSUw==</data>
 					<key>Limit</key>
@@ -420,7 +420,7 @@
 					<key>Count</key>
 					<integer>0</integer>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>IgABeQA=</data>
 					<key>Limit</key>
@@ -450,7 +450,7 @@
 					<key>Count</key>
 					<integer>0</integer>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>IgEAeQA=</data>
 					<key>Limit</key>
@@ -686,7 +686,7 @@
 					<key>BaseSkip</key>
 					<integer>0</integer>
 					<key>Comment</key>
-					<string>_Q11 to XQ11</string>
+					<string>_Q11 to XQ11 - Fn-F8 (External display)</string>
 					<key>Count</key>
 					<integer>1</integer>
 					<key>Enabled</key>
@@ -1304,7 +1304,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/AsusSMC</string>
 					<key>MaxKernel</key>
@@ -1556,7 +1556,7 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/BrightnessKeys</string>
 					<key>MaxKernel</key>
@@ -2169,7 +2169,7 @@
 					<key>SystemAudioVolumeDB</key>
 					<data>4g==</data>
 					<key>boot-args</key>
-					<string>-v debug=0x100 slide=1 alcdelay=1000 keepsyms=1 kext-dev-mode=1 -wegnoegpu -brkeysdbg</string>
+					<string>-v debug=0x100 slide=1 alcdelay=1000 keepsyms=1 kext-dev-mode=1 -wegnoegpu -brkeysdbg -asussmcdbg</string>
 					<key>csr-active-config</key>
 					<data>AAAAAA==</data>
 					<key>prev-lang:kbd</key>
