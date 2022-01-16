@@ -1975,13 +1975,13 @@
 				<key>LauncherPath</key>
 				<string>Default</string>
 				<key>PickerAttributes</key>
-				<integer>9</integer>
+				<integer>17</integer>
 				<key>PickerAudioAssist</key>
-				<true/>
+				<false/>
 				<key>PickerMode</key>
 				<string>External</string>
 				<key>PickerVariant</key>
-				<string>Auto</string>
+				<string>Acidanthera\Syrah</string>
 				<key>PollAppleHotKeys</key>
 				<false/>
 				<key>ShowPicker</key>
