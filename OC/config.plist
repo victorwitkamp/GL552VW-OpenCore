@@ -106,7 +106,7 @@
 					<key>Comment</key>
 					<string>Read the comment in dsl sample</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Path</key>
 					<string>SSDT-PNLF.aml</string>
 				</dict>
@@ -146,7 +146,7 @@
 					<key>Comment</key>
 					<string>ATKD</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Path</key>
 					<string>SSDT-ATKD.aml</string>
 				</dict>
