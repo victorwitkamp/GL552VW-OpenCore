@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>	
+	<dict>
 		<key>#WARNING - 1</key>
 		<string>This is just a sample. Do NOT try loading it.</string>
 		<key>#WARNING - 2</key>
@@ -34,7 +34,7 @@
 					<key>Comment</key>
 					<string>Read the comment in dsl sample</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Path</key>
 					<string>SSDT-ALS0.aml</string>
 				</dict>
@@ -144,7 +144,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>ATKD Keyboard Backlight</string>
+					<string>ATKD Fn Keys + Keyboard Backlight</string>
 					<key>Enabled</key>
 					<true/>
 					<key>Path</key>
@@ -258,7 +258,7 @@
 					<key>Comment</key>
 					<string>_OSI to XOSI</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Path</key>
 					<string>SSDT-XOSI.aml</string>
 				</dict>
@@ -360,7 +360,7 @@
 					<key>Count</key>
 					<integer>1</integer>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X0NSUw==</data>
 					<key>Limit</key>
@@ -660,7 +660,7 @@
 					<key>Count</key>
 					<integer>0</integer>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X09TSQ==</data>
 					<key>Limit</key>
@@ -686,11 +686,161 @@
 					<key>BaseSkip</key>
 					<integer>0</integer>
 					<key>Comment</key>
-					<string>_Q11 to XQ11 - Fn-F8 (External display)</string>
+					<string>PWKB to XWKB in DSDT for keyboard backlight</string>
 					<key>Count</key>
 					<integer>1</integer>
 					<key>Enabled</key>
 					<false/>
+					<key>Find</key>
+					<data>CFBXS0I=</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data></data>
+					<key>OemTableId</key>
+					<data></data>
+					<key>Replace</key>
+					<data>CFhXS0I=</data>
+					<key>ReplaceMask</key>
+					<data></data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+					<key>TableSignature</key>
+					<data>RFNEVA==</data>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
+					<key>Comment</key>
+					<string>_Q0A to XQ0A - Fn-F1 (Sleep)</string>
+					<key>Count</key>
+					<integer>1</integer>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>X1EwQQ==</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data></data>
+					<key>OemTableId</key>
+					<data></data>
+					<key>Replace</key>
+					<data>WFEwQQ==</data>
+					<key>ReplaceMask</key>
+					<data></data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+					<key>TableSignature</key>
+					<data>RFNEVA==</data>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
+					<key>Comment</key>
+					<string>_Q0B to XQ0B - Fn-F2 (Airplane mode)</string>
+					<key>Count</key>
+					<integer>1</integer>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>X1EwQg==</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data></data>
+					<key>OemTableId</key>
+					<data></data>
+					<key>Replace</key>
+					<data>WFEwQg==</data>
+					<key>ReplaceMask</key>
+					<data></data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+					<key>TableSignature</key>
+					<data>RFNEVA==</data>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
+					<key>Comment</key>
+					<string>Rename _Q0E to XQ0E - (Brightness Down)</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>X1EwRQ==</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data></data>
+					<key>OemTableId</key>
+					<data></data>
+					<key>Replace</key>
+					<data>WFEwRQ==</data>
+					<key>ReplaceMask</key>
+					<data></data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+					<key>TableSignature</key>
+					<data>RFNEVA==</data>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
+					<key>Comment</key>
+					<string>Rename _Q0F to XQ0F - (Brightness Up)</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>X1EwRg==</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data></data>
+					<key>OemTableId</key>
+					<data></data>
+					<key>Replace</key>
+					<data>WFEwRg==</data>
+					<key>ReplaceMask</key>
+					<data></data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+					<key>TableSignature</key>
+					<data>RFNEVA==</data>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
+					<key>Comment</key>
+					<string>_Q11 to XQ11</string>
+					<key>Count</key>
+					<integer>1</integer>
+					<key>Enabled</key>
+					<true/>
 					<key>Find</key>
 					<data>X1ExMQ==</data>
 					<key>Limit</key>
@@ -701,6 +851,36 @@
 					<data></data>
 					<key>Replace</key>
 					<data>WFExMQ==</data>
+					<key>ReplaceMask</key>
+					<data></data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+					<key>TableSignature</key>
+					<data>RFNEVA==</data>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
+					<key>Comment</key>
+					<string>_Q12 to XQ12</string>
+					<key>Count</key>
+					<integer>1</integer>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>X1ExMg==</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data></data>
+					<key>OemTableId</key>
+					<data></data>
+					<key>Replace</key>
+					<data>WFExMg==</data>
 					<key>ReplaceMask</key>
 					<data></data>
 					<key>Skip</key>
@@ -720,7 +900,7 @@
 					<key>Count</key>
 					<integer>1</integer>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>FEAGR1BSVwJwaA==</data>
 					<key>Limit</key>
