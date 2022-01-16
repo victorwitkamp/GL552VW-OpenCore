@@ -2349,7 +2349,7 @@
 					<key>SystemAudioVolumeDB</key>
 					<data>4g==</data>
 					<key>boot-args</key>
-					<string>-v debug=0x100 slide=1 alcdelay=1000 keepsyms=1 kext-dev-mode=1 -wegnoegpu -brkeysdbg -asussmcdbg</string>
+					<string>-v debug=0x100 slide=1 alcdelay=1000 keepsyms=1 kext-dev-mode=1 -wegnoegpu</string>
 					<key>csr-active-config</key>
 					<data>AAAAAA==</data>
 					<key>prev-lang:kbd</key>
