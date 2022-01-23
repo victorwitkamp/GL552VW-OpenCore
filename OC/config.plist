@@ -16,7 +16,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Read the comment in dsl sample - Enable brightness control</string>
+					<string>Enable brightness control</string>
 					<key>Enabled</key>
 					<true/>
 					<key>Path</key>
@@ -48,12 +48,20 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>EC-USBX-LAPTOP (dortania)</string>
+					<string>USBX</string>
 					<key>Enabled</key>
 					<true/>
 					<key>Path</key>
-					<string>SSDT-EC-USBX-LAPTOP.aml</string>
+					<string>SSDT-USBX.aml</string>
 				</dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>EC</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-EC.aml</string>
+                </dict>
 				<dict>
 					<key>Comment</key>
 					<string>HPET _CRS (SSDTTime)(_CRS to XCRS)</string>
@@ -1186,7 +1194,7 @@
 					<key>Comment</key>
 					<string>Intel Wi-Fi driver</string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/itlwm</string>
 					<key>MaxKernel</key>
@@ -1404,9 +1412,9 @@
 			<key>Quirks</key>
 			<dict>
 				<key>AppleCpuPmCfgLock</key>
-				<true/>
+				<false/>
 				<key>AppleXcpmCfgLock</key>
-				<true/>
+				<false/>
 				<key>AppleXcpmExtraMsrs</key>
 				<false/>
 				<key>AppleXcpmForceBoost</key>
@@ -1467,7 +1475,7 @@
 				<key>HibernateMode</key>
 				<string>None</string>
 				<key>HideAuxiliary</key>
-				<true/>
+				<false/>
 				<key>LauncherOption</key>
 				<string>Disabled</string>
 				<key>LauncherPath</key>
@@ -1619,6 +1627,86 @@
 					<string>Shutdown</string>
 					<key>Path</key>
 					<string>ResetSystem.efi</string>
+					<key>RealPath</key>
+					<false/>
+					<key>TextMode</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Arguments</key>
+					<string></string>
+					<key>Auxiliary</key>
+					<true/>
+					<key>Comment</key>
+					<string></string>
+					<key>Enabled</key>
+					<true/>
+					<key>Flavour</key>
+					<string>Auto</string>
+					<key>Name</key>
+					<string>VerifyMsrE2</string>
+					<key>Path</key>
+					<string>ControlMsrE2.efi</string>
+					<key>RealPath</key>
+					<false/>
+					<key>TextMode</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Arguments</key>
+					<string>unlock</string>
+					<key>Auxiliary</key>
+					<true/>
+					<key>Comment</key>
+					<string></string>
+					<key>Enabled</key>
+					<true/>
+					<key>Flavour</key>
+					<string>Auto</string>
+					<key>Name</key>
+					<string>VerifyMsrE2 - unlock</string>
+					<key>Path</key>
+					<string>ControlMsrE2.efi</string>
+					<key>RealPath</key>
+					<false/>
+					<key>TextMode</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Arguments</key>
+					<string></string>
+					<key>Auxiliary</key>
+					<true/>
+					<key>Comment</key>
+					<string></string>
+					<key>Enabled</key>
+					<true/>
+					<key>Flavour</key>
+					<string>Auto</string>
+					<key>Name</key>
+					<string>modGRUBShell</string>
+					<key>Path</key>
+					<string>modGRUBShell.efi</string>
+					<key>RealPath</key>
+					<false/>
+					<key>TextMode</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Arguments</key>
+					<string></string>
+					<key>Auxiliary</key>
+					<true/>
+					<key>Comment</key>
+					<string></string>
+					<key>Enabled</key>
+					<true/>
+					<key>Flavour</key>
+					<string>Auto</string>
+					<key>Name</key>
+					<string>CFGLock</string>
+					<key>Path</key>
+					<string>CFGLock.efi</string>
 					<key>RealPath</key>
 					<false/>
 					<key>TextMode</key>
