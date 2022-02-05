@@ -63,6 +63,14 @@
                     <string>SSDT-EC.aml</string>
                 </dict>
 				<dict>
+                    <key>Comment</key>
+                    <string>LPCB</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>SSDT-LPCB.aml</string>
+                </dict>
+				<dict>
 					<key>Comment</key>
 					<string>HPET _CRS (SSDTTime)(_CRS to XCRS)</string>
 					<key>Enabled</key>
@@ -255,6 +263,36 @@
 					<data>AAAAAA==</data>
 					<key>Replace</key>
 					<data>IgAAeQA=</data>
+					<key>ReplaceMask</key>
+					<data></data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+					<key>TableSignature</key>
+					<data>AAAAAA==</data>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string></string>
+					<key>BaseSkip</key>
+					<integer>0</integer>
+					<key>Comment</key>
+					<string>LPCB _DSM to XDSM</string>
+					<key>Count</key>
+					<integer>1</integer>
+					<key>Enabled</key>
+					<false/>
+					<key>Find</key>
+					<data>FBhfRFNNDA==</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data></data>
+					<key>OemTableId</key>
+					<data>AAAAAA==</data>
+					<key>Replace</key>
+					<data>FBhYRFNNDA==</data>
 					<key>ReplaceMask</key>
 					<data></data>
 					<key>Skip</key>
@@ -864,24 +902,6 @@
 				</dict>
 				<dict>
 					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>Legacy_USB3.kext</string>
-					<key>Comment</key>
-					<string>XHC ports configuration</string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string></string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>15.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
 					<string>Any</string>
 					<key>BundlePath</key>
 					<string>ECEnabler.kext</string>
@@ -1008,24 +1028,6 @@
 				</dict>
 				<dict>
 					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/VoodooInput</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string></string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
 					<string>Any</string>
 					<key>BundlePath</key>
 					<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
@@ -1136,60 +1138,6 @@
 					<key>Arch</key>
 					<string>x86_64</string>
 					<key>BundlePath</key>
-					<string>SATA-unsupported.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string></string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string></string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>USBInjectAll.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/USBInjectAll</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string></string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>USBMap.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string></string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string></string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
 					<string>itlwm.kext</string>
 					<key>Comment</key>
 					<string>Intel Wi-Fi driver</string>
@@ -1201,6 +1149,42 @@
 					<string></string>
 					<key>MinKernel</key>
 					<string>16.0.0</string>
+					<key>PlistPath</key>
+					<string>Contents/Info.plist</string>
+				</dict>
+				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
+					<key>BundlePath</key>
+					<string>IntelBluetoothFirmware.kext</string>
+					<key>Comment</key>
+					<string>IntelBluetoothFirmware</string>
+					<key>Enabled</key>
+					<true/>
+					<key>ExecutablePath</key>
+					<string>Contents/MacOS/IntelBluetoothFirmware</string>
+					<key>MaxKernel</key>
+					<string></string>
+					<key>MinKernel</key>
+					<string></string>
+					<key>PlistPath</key>
+					<string>Contents/Info.plist</string>
+				</dict>
+				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
+					<key>BundlePath</key>
+					<string>BlueToolFixup.kext</string>
+					<key>Comment</key>
+					<string>BlueToolFixup</string>
+					<key>Enabled</key>
+					<true/>
+					<key>ExecutablePath</key>
+					<string>Contents/MacOS/BlueToolFixup</string>
+					<key>MaxKernel</key>
+					<string></string>
+					<key>MinKernel</key>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
