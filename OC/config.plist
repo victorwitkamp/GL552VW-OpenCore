@@ -1142,7 +1142,7 @@
 					<key>Comment</key>
 					<string>Intel Wi-Fi driver</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/itlwm</string>
 					<key>MaxKernel</key>
@@ -1721,7 +1721,7 @@
 					<key>SystemAudioVolumeDB</key>
 					<data>4g==</data>
 					<key>boot-args</key>
-					<string>-v debug=0x20 msgbuf=1048576 slide=1 alcdelay=1000 keepsyms=1 kext-dev-mode=1</string>
+					<string>-v debug=0x100 msgbuf=1048576 slide=1 alcdelay=1000 keepsyms=1 kext-dev-mode=1</string>
 					<key>csr-active-config</key>
 					<data>AAAAAA==</data>
 					<key>prev-lang:kbd</key>
