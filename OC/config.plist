@@ -1428,13 +1428,13 @@
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
-                <integer>2147483714</integer>
+                <integer>2147483650</integer>
                 <key>LogModules</key>
                 <string>*</string>
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>67</integer>
+                <integer>3</integer>
             </dict>
             <key>Entries</key>
             <array>
@@ -2281,7 +2281,7 @@
                 <key>AppleBootPolicy</key>
                 <false/>
                 <key>AppleDebugLog</key>
-                <true/>
+                <false/>
                 <key>AppleEg2Info</key>
                 <false/>
                 <key>AppleFramebufferInfo</key>
