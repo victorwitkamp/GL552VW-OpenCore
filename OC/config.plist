@@ -1881,7 +1881,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>LoadEarly</key>
-				<false/>
+				    <false/>
                     <key>Path</key>
                     <string>HfsPlus.efi</string>
                 </dict>
@@ -1903,7 +1903,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
